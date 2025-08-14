@@ -12,7 +12,7 @@ CREATE TABLE users (
 CREATE TABLE articles (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
-    url TEXT NOT NULL UNIQUE,
+    url TEXT NOT NULL,
     source_name VARCHAR(255),
     published_at TIMESTAMP NOT NULL
 );
