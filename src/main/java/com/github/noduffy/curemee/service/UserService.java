@@ -1,6 +1,10 @@
-package com.github.noduffy.curemee;
+package com.github.noduffy.curemee.service;
 
 import org.springframework.stereotype.Service;
+
+import com.github.noduffy.curemee.model.User;
+import com.github.noduffy.curemee.repository.UserRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import java.util.Optional;
 

@@ -1,4 +1,4 @@
-package com.github.noduffy.curemee;
+package com.github.noduffy.curemee.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
